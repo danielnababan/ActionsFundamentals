@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Hello World
-        uses: danielnababan/hello-world-docker-action@v1
+        uses: danielnababan/hello-world-docker-action@v1.1
         with:
           who-to-greet: 'Daniel Nababan'
