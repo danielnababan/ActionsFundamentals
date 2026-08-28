@@ -1,0 +1,12 @@
+name: Test External Action
+on: 
+  workflow_dispatch:
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Hello World
+        uses: danielnababan/hello-world-docker-action@v1
+        with:
+          who-to-greet: Daniel Nababan
