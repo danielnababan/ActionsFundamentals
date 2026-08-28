@@ -9,4 +9,4 @@ jobs:
       - name: Run Hello World
         uses: danielnababan/hello-world-docker-action@v1
         with:
-          who-to-greet: "Daniel Nababan"
+          who-to-greet: 'Daniel Nababan'
